@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap');
+* {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+}
+
+nav {
+  background-color: #021b0ad2;
+  height: 100%;
+  width: 180px;
+  border: #a6ebaf solid 2x;  
+ }
+
+body {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  background-color: rgba(21, 90, 38, 0.575);
+}
+
+#border {
+  width: 100%;
+  border: rgba(2, 68, 77, 0.363) solid 15px;  
+}
+
+li {
+  color: rgb(225, 248, 225);
+  padding: 30px;
+  font-size: x-large;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #0e5a42;
+  color: rgba(83, 238, 114, 0.938);    
+}
+
+section {
+  background-color: #8aff04;
+  padding: 70px;  
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+ }
+
+h2 {
+  font-family: 'Gluten', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Gluten', cursive;
+  text-align: justify;
+}
